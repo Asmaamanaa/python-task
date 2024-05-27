@@ -1,0 +1,58 @@
+numbers= [12,75,150,180,145,525,50]
+
+# num %5==0
+# num > 150 ----> skip continue
+
+
+for num in numbers:
+    if num > 500:
+        break
+    if num > 150:
+        continue
+    if num%5==0:
+        print(num)
+
+# Write a program to count the total number of digits in a number using a while loop
+# For example, the number is 75869, so the output should be 5
+
+num = [7,5,8,6,9]
+x= 5
+while x== len(num):
+    print(len(num))
+    x+=1
+
+num = 75869
+count = 0
+
+while num != 0:
+    num //= 10
+    count += 1
+
+print("Number of digits: "  + str(count))
+
+list1 =[10,20,30,40,50]
+x=list1[: :-1]
+print(x)
+for i in x:
+    print(i)
+
+# display numbers from -10 to -1 using for loop
+for i in range (-10,0):
+    print(i)
+
+# write a program to print multiplication table of a given number
+num = [1,2,3,4,5,6,7,8,9,10]
+x=2
+for i in num :
+    print(x*i)
+
+# display fibonacci series of numbers . the numbers is found by adding up the two numbers before it . the first two numbers are 0 and 1
+
+a,b = 0,1
+while b < 55 :
+    print(b)
+    a,b = b, a+b
+
+
+
+
