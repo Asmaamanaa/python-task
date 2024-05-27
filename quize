@@ -24,7 +24,7 @@ while x== len(num):
 num = 75869
 count = 0
 
-while num != 0:
+while num > 0:
     num //= 10
     count += 1
 
