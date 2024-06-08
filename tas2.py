@@ -16,4 +16,9 @@ if units > 200 :
     cost = ('units - 200')*10
     print('2000 =', cost+500)
 else :
-    print ('false') 
+    print ('false')
+
+
+
+for i in range(1,2):
+    print(i)
